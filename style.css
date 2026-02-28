@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Midnight;
+    src: url(fontes/Midnight\ Angel.ttf) format(opentype), url(fontes/Starlight\ Romance.ttf) format(opentype), url(fontes/Vintage\ Machine.otf) format(opentype);
+}
+@font-face {
+    font-family: Vintage;
+    src: url(fontes/Vintage\ Machine.otf) format(opentype)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: 'Vintage', sans-serif;
+    background-color: #3932ff;
+}
+main{
+    height: 550px;
+}
+header{
+    font-family: "Midnight", sans-serif;
+    background-color: white;
+    text-align: center;
+
+}
+
+nav {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 100ms;
+}
+nav > a:hover{
+    background-color: #3562f7c9;
+    text-decoration: none;
+    padding: 10px;
+}
+
+article{
+   padding-top: 0px;
+   padding-bottom: 10px;
+    background-color: beige;
+    margin: auto;
+    min-width: 300px;
+    max-width: 850px;
+    border-radius: 2px 2px 0px 0px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.479);
+    text-align: justify;
+}
+
+
+
+h1{
+    text-indent: 30px;
+    color: #2B2C33;
+    font-size: 3em;
+}
+.t2{
+    color: #2B2C33;
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+    font-weight:bold
+}
+a {
+    color: azure;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+aside{
+    background-color: beige;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+border-radius: 0px 0px ;
+min-width: 300px;
+max-width: 850px;
+
+}
+aside > ul{
+    text-indent: 10px;
+    list-style: inside;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+}
+footer > p >a{
+   text-decoration: underline;
+   text-align: justify;
+}

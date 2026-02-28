@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Midnight";
+    src: url(fontes/Midnight\ Angel.ttf) format(opentype), url(fontes/Starlight\ Romance.ttf) format(opentype), url(fontes/Vintage\ Machine.otf) format(opentype);
+}
+@font-face {
+    font-family: "Creato";
+    src: url(fontes/CreatoDisplay-Regular.otf) format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#2D52B8
+}
+header{
+    text-align: center;
+    font-family: "Midnight", sans-serif;
+    font-size:2.5em;
+    padding: 18px;
+    background-image: linear-gradient(to bottom,#4C5263, #292C36) ;
+}
+main{
+    margin: auto;
+    padding: 10px;
+    background-color:#394BA3;
+    min-width: 300px;
+    max-width: 700px;
+    border-radius: 3px 3px 4px 2px;
+    width: 100px;
+    box-shadow: 1px 1px 1px 0px;
+}
+nav > a{
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    font-family: "Creato";
+    padding: 3px;
+
+}
+nav > a:hover{
+    background-color: yellow;
+}
+h2{
+    text-align: center;
+    font-family: "Creato", sans-serif;
+}
+article p{
+margin: auto;
+padding: 20px;
+font-family: "Creato", sans-serif;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: '\1F354\00A0\00A0';
+
+}

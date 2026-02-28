@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Midnight";
+    src: url(fontes/Midnight\ Angel.ttf) format(opentype), url(fontes/Starlight\ Romance.ttf) format(opentype), url(fontes/Vintage\ Machine.otf) format(opentype);
+}
+@font-face {
+    font-family: "Vintage";
+    src: url(fontes/Vintage\ Machine.otf) format(opentype)
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: "Vintage", sans-serif;
+    font-size: 1.5em;
+    background-color:#5FCBE0
+
+}
+header{
+    font-family: "Midnight";
+    font-size: 1.5em;
+    background-image: linear-gradient( to bottom,#14E0C0,#14E07B) ;
+    color: rgba(0, 0, 0, 0.671);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.548);
+}
+nav > a{
+background-color:#14E07B;
+color: rgba(0, 0, 0, 0.664);
+text-decoration: none;
+font-weight: bold;
+box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.466);
+}
+nav > a:hover{
+    background-color: #14BEE0;
+   
+}
+main{
+    margin: auto;
+    padding: 5px;
+    background-color: #6196E0;
+    min-width: 300px;
+    max-width: 700px;
+    border-radius: 2px 4px 6px ;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.466);
+}
+article{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+article > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\1F3B5\00A0\00A0'
+}

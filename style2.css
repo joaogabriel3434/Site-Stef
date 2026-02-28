@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Midnight";
+    src: url(fontes/Midnight\ Angel.ttf) format(opentype), url(fontes/Starlight\ Romance.ttf) format(opentype), url(fontes/Vintage\ Machine.otf) format(opentype);
+}
+@font-face {
+    font-family: "Vintage";
+    src: url(fontes/Vintage\ Machine.otf) format(opentype)
+}
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: #861FDB;
+    font-family: "Midnight", sans-serif ;
+}
+header{
+font-family: "Midnight", sans-serif;
+background-color: #69418A;
+color: var(to bottom, #69418A, #2F2933);
+font-weight: bold;
+font-size: 2em;
+
+}
+nav > a {
+    background-color: #69418A;
+    font-family: "Vintage";
+    padding: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.993);
+    
+}
+nav > a:hover{
+    background-color: #2F2A33;
+}
+article > p {
+    font-family: "Vintage", sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 20px;
+}
+img{
+   margin: auto;
+   padding: 80px;
+}
